@@ -58,6 +58,7 @@ url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&d
     font-weight: 400;
     font-size: 26px;
     background-color: #fcee21;
+    width: 100%;
 }
 
 .parrafo1{
@@ -89,6 +90,11 @@ h3 {
 
 #complemento, #presencia {
     font-weight: 700;
+}
+
+.imgservicios{
+    width: 500px;
+    display: inline-block;
 }
 
 #servicios {
@@ -139,7 +145,6 @@ body{
 }
 footer{
     background-color: #fcee21;
-
 }
 
 .footerwapas{
