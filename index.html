@@ -21,55 +21,76 @@
             </ul>
         </nav>
     </header>
-    <section>
+    <main>
     <div class="componente1">
         <div class="subcomponente1">
-            <h2 class="somos">somos <strong id="wapas">wwwapas</strong></h2>
-            <h2 class="subtitulo">Social media managers | creadoras de contenido</h2>
-            <div class="parrafo1">
+            <h2 class="somos">somos <br><strong id="wapas">wwwapas</strong></h2>
+            <h2><span class="subtitulo">Social media managers | creadoras de contenido</span></h2>
+            <p class="parrafo1">
                 Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio 
                 <strong id="relaciones">¡Creamos relaciones estables yduraderas con tus clientes!</strong>
-            </div>
+            </p>
         </div>
-        <div class="subcomponente1">
+        <div class="subcomponente2">
             <img class="fotoChicas"src="imagenes/foto.png" alt="chicasConLaptops">
         </div>
     </div>
-    </section>
-    <h3>¡Hola! Somos SOFI & JULIA,</h3>
-        <div class="parrafo2">las social media managers, las creadoras de contenido, las
+    <div class="componente2">
+        <div class="subcomponente3"><h3>¡Hola! Somos SOFI & JULIA,</h3>
+        <p class="parrafo2">las social media managers, las creadoras de contenido, las
             copywriters, las generadoras de leads, las diseñadoras, las
             estrategas en marketing digital, las potenciadoras de ventas,
             el posicionamiento de tu marca <strong id="complemento">¡Somos el complemento que
-            necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></div>
-            <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
-        <div class="parrafo3">La transformación digital no es solo para grandes compañías,
+            necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong></p></div>
+        <div class="subcomponente4"><h3>GESTIONAMOS TUS REDES SOCIALES</h3>
+        <p class="parrafo3">La transformación digital no es solo para grandes compañías,
         todas las empresas deben emprenderla cuanto antes y aquí
         es donde podemos asistirte. Armamos estrategias a medida
         para tu empresa, marca o producto <strong id="presencia">¡Aumentá tu presencia
-        digital y generá nuevas ventas y contactos!</strong></div>
+        digital y generá nuevas ventas y contactos!</strong></p></div>
+    </div>
     <hr><br>
-    <div class="contenedorservicios">
+    <div class="componente3">
         <div>
             <img  class="imgservicios" src="imagenes/img-servicios.png" alt="Servicios variados con logotipo">
         </div>
+        <div class="subcomponente5">
         <h2 id="servicios">Servicios</h2>
         <ol>
-            <li>Análisis de perfil (Benchmarking)</li>
-            <li>Revisión y activación de canales</li>
-            <li>Gestión, creación y diseño de contenido</li>
-            <li>Respuestas a mensajes y consultas</li>
-            <li>Segmentación de promociones según el público objetivo
+            <li class="li">Análisis de perfil (Benchmarking)</li>
+            <li class="li">Revisión y activación de canales</li>
+            <li class="li">Gestión, creación y diseño de contenido</li>
+            <li class="li">Respuestas a mensajes y consultas</li>
+            <li class="li">Segmentación de promociones según el público objetivo
             de la pauta publicitaria</li>
-            <li> Diagramamos un calendario que se ajuste a los objetivos
+            <li class="li"> Diagramamos un calendario que se ajuste a los objetivos
             de la empresa</li>
-            <li><strong id="lista7">7. ¡Empezamos a comunicar!</strong></li>
+            <li class="li"><strong id="lista7">7. ¡Empezamos a comunicar!</strong></li>
         </ol>
+        </div>
     </div>
     <hr><br>
 
-    <div id="contacto">¿Querés que nos contactemos con vos?</div>
-    <div class="consulta"">Envianos tu consulta >></div>
+    <div class="componente4">
+        <div class="subcomponente6">
+            <div id="contacto">¿Querés que nos contactemos con vos?</div>
+            <div class="consulta">Envianos tu consulta >></div>
+        </div>
+        <div  class="formulario">
+            <form action="copy.php" method="post">
+                <label>Nombre <span class="rojito">*</span></label>
+                <input type="text" required name="nombre"  id="nombre" placeholder="Nombre">
+                <label>Email <span class="rojito">*</span></label>
+                <input type="mail" required name="email" id="email" placeholder="info@mimail.com">
+                <label>Mensaje <span class="rojito">*</span></label>
+                <textarea type="textarea" required name="mensaje" id="mensaje"></textarea>
+                <div class="botones">
+                    <button type="submit" id="enviar">Enviar consulta</button>
+                    <button type="reset" id="reset">Borrar</button>
+                </div>
+            </form>
+        </div>
+    </div>
     <br><br>
     <div class="divImagenes">
         <p class="redes">redes <br>wwwapas</p>
@@ -78,6 +99,7 @@
         <a href="https://www.linkedin.com/" target="_blank"><img id="imagenes" src="imagenes/linkedin-icon.png" alt="instagram"></a>
         <a href="https://www.facebook.com/" target="_blank"><img id="imagenes" src="imagenes/facebook-icon.png" alt="facebook"></a>
     </div>
+    </main>
     <footer>
         <h1 class="footerwapas">wwwwapas</h1>
         <a id="mailto" href="mailto: wwwwapas_sm@gmail.com">wwwwapas_sm@gmail.com</a>

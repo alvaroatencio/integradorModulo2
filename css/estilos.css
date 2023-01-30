@@ -1,29 +1,61 @@
-@import
-url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
 
 *{
     scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
+main{
+    width: 80%;
+    margin: auto;
+}
+
 body{
     background-color: #f2f2f2;
     position: relative;
+    margin: 0;
+    padding: 0;
 }
 
 header{
     border-top: 10px solid #fcee21;
 }
 
-.contenedor1{
-    display: flex;
-    justify-content: space-around;
+.subtitulo{
+    margin-top: 0;
 }
 
 #nav{
     position: relative;
     display: flex;
     justify-content: space-around;
+}
+
+.componente1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.componente2{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.subcomponente3 h3, p{
+    width: 80%;
+}
+
+.componente3{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subcomponente5{
+    margin-left: 180px;
 }
 
 .titulo{
@@ -48,20 +80,21 @@ header{
     margin-left: 70px;
 }
 
-.componente1{
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-}
-
 .subcomponente1{
     position: relative;
+    width: auto;
+    padding: 0;
+    align-items: column;
+    justify-content: space-between;
 }
 
 .somos{
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 64px;
+    margin: 0;
+    height: 220px;
+    width: 500px;
 }
 
 #wapas{
@@ -69,6 +102,7 @@ header{
     font-weight: 400;
     font-size: 117px;
 }
+
 .subtitulo{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -125,7 +159,11 @@ ol {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 2em;
-    list-style-position: inside;
+    list-style-position: outside;
+}
+
+.li{
+    padding: 10px;
 }
 
 #lista7 {
@@ -133,12 +171,57 @@ ol {
     font-weight: 700;
     font-size: 32px;
     background-color: #fcee21;
-    margin-left: -35px;
+    margin-left: -43px;
 }
 
 .lista7 {
     background-color: #fcee21;
 }
+
+.componente4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.subcomponente6{
+    width: 50%;
+}
+
+.formulario form, input{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    resize: none;
+    height: 200px;
+}
+
+button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 0; 
+}
+
+button:hover{
+    background-color: rgb(78, 75, 75);
+}
+
 
 #contacto {
     font-family: 'Roboto', sans-serif;
@@ -146,7 +229,7 @@ ol {
     font-size: 68px;
     background-color: black;
     color: white;
-    height: auto;
+
 }
 
 .consulta {
@@ -158,7 +241,9 @@ ol {
 }
 
 footer{
+    margin-top: 130px;
     background-color: #fcee21;
+    padding-left: 50px;
 }
 
 .footerwapas{
@@ -184,7 +269,11 @@ footer{
     font-weight: 700;
     font-size: 28px;
     color: #808080;
-    display: inline-block;
+    width: auto;
+}
+
+.rojito{
+    color: red;
 }
 
 #imagenes{
@@ -194,6 +283,5 @@ footer{
 .divImagenes{
     display: flex;
     justify-content: space-around;
-    margin: 120px;
 }
 
