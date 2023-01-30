@@ -131,22 +131,6 @@ h3 {
     background-color: #fcee21;
 }
 
-#contacto {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 68px;
-    background-color: black;
-    color: white;
-}
-
-.consulta {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 44px;
-    background-color: #fcee21;
-    color: black;
-}
-
 footer{
     background-color: #fcee21;
 }
@@ -186,3 +170,66 @@ footer{
     margin: 120px;
 }
 
+label{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.botones{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 32px;
+}
+.rojito{
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 27px;
+    color: red;
+}
+
+#contacto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 68px;
+    background-color: black;
+    color: white;
+}
+
+.consulta {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    background-color: #fcee21;
+    color: black;
+    display: inline-block;
+}
+#contenedorConsulta{
+    display: flex;
+    justify-content: space-between;
+}
+#subcontendorConsulta{
+    display: inline-block;
+}
+input{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+textarea{
+    width: 500px;
+    height: 140px;
+}
+#botones{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.botones{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 32px;
+    color: #f2f2f2;
+    background-color: black;
+}
